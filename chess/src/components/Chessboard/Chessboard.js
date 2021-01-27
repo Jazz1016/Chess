@@ -1,9 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
+import ChessSquares from "./ChessSquares/ChessSquares";
 
-class Chessboard extends Component {
-  render() {
-    return <div></div>;
-  }
-}
+const Chessboard = () => {
+    let chessDisplay = ;
+  return (
+    <div>
+      <h5>Chessboard</h5>
+    </div>
+  );
+};
 
 export default Chessboard;
